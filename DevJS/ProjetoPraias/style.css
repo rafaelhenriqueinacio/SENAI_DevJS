@@ -1,0 +1,101 @@
+body {
+    font-family: Times;
+    font-size: 18px;
+    background: rgb(212, 182, 48);
+    color: black;
+    text-align: justify;
+}
+
+.navbar {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.card{
+    background-color: lightcyan;
+    height: auto;
+}
+img{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+li a:hover{
+    background-color: rgb(136, 133, 133);
+    color:rgb(58, 55, 55);
+}
+
+#saibaMais{
+    height: 140px;
+}
+
+.card-body{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn{
+
+    margin-top:auto;
+}
+
+.icone, .mobile-menu, #menu-check{
+    display: none;
+}
+
+.desktop-menu{
+    display:block;
+}
+
+@media(max-width: 1000px){
+    #navTopinho{
+        display: none;
+    }
+    #menu-check{
+        display: none;
+    }
+    .icone{
+        display: block;
+        background-color: #080131;
+        color: #c8e1f5;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .mobile-menu{
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+    }
+    .mobile-menu a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    #menu-check:checked + .icone + .mobile-menu{
+        display:flex;
+    }
+
+    #imagensLado{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #imagensLado img{
+        width: 350px;
+    }
+}
