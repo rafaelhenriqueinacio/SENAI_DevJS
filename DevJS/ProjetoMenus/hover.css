@@ -1,0 +1,31 @@
+.menu-hover{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    background-color: white;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+.menu-hover a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 5px;
+    transition: color 0.5s ease;
+}
+
+.menu-hover a::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background-color: rgb(253, 1, 131);
+    transition: width 0.5s ease;
+    height: 2px; 
+}
+
+.menu-hover a:hover::after{
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+#menu{
+    display: none;
+}
+
+.menuicone{
+    background-color: lightgreen;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.menu-slider{
+    display: none;
+    flex-direction: column;
+    background-color: lightgreen;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 40px;
+}
+
+.menu-slider a{
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#menu:checked + .menuicone + .menu-slider{
+    display: flex;
+}
+
+.nav-item:hover{
+    color: blue
+}

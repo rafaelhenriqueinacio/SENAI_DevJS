@@ -1,0 +1,23 @@
+.menu-vertical{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: lightgreen;
+    padding-top: 40px;
+}
+
+.menu-vertical{
+    list-style: none;
+    padding: 0;
+}
+
+.menu-vertical a{
+    display: block;
+    color: yellow;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: rgb(12, 143, 12);
+}

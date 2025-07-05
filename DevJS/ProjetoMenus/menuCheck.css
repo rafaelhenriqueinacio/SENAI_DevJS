@@ -1,0 +1,31 @@
+#menu{
+    display: none;
+}
+
+.menuicone{
+    background-color: lightgreen;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.menu-mobile{
+    display: none;
+    flex-direction: column;
+    background-color: lightgreen;
+}
+
+.menu-mobile a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#menu:checked + .menuicone + .menu-mobile{
+    display: flex;
+}
+
+.nav-item:hover{
+    color: blue
+}
