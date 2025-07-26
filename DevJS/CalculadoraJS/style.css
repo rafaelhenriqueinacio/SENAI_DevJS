@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg,rgba(98, 102, 181, 1) 0%, rgba(60, 116, 176, 1) 65%, rgba(237, 221, 83, 1) 100%);
+}
+.fundo{
+    height: 100vh;
+    color: white;
+    font-family:'Times New Roman';
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
+
+.corpoCalc{
+    margin-top: 2%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    transform: translate(50%,50%);
+    top: 15%;
+    left: 38%;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(19, 59, 146);
+    border: none;
+    color: white;
+}
+
+.botao:hover{
+    background: linear-gradient(90deg,rgba(98, 102, 181, 1) 0%, rgba(60, 116, 176, 1) 65%, rgba(237, 221, 83, 1) 100%);
+
+}
+
+#resultado{
+    background-color: white;
+    width: 214px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
