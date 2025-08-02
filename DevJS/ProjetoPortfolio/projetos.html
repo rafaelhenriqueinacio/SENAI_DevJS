@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="menuzinho">
+    <nav class="menu-hover">
+        <a href="index.html" class="nav-item">Página Inicial</a>
+        <a href="sobremim.html" class="nav-item">Sobre Mim</a>
+        <a href="projetos.html" class="nav-item">Projetos</a>
+    </nav>
+  </div>
+  <div class="pagprojetos">
+  <h1>Meus Projetos</h1>
+  <br><br><br>
+    <div id="carrossel-Slides" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <!--A div abaixo contém todos os slides no carrossel, o que
+            determina isso é o atributo carousel-inner da class-->
+            <div class="carousel-inner">
+                <!--AGORA TEREMOS AS DIVS QUE CONTERÃO AS IMAGENS-->
+                <div class="carousel-item active">
+                    <img class="d-block w-100" height="500px" src="Imagens/KidSegura.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block" style="color:blue;">
+                        <h5>KidSegura</h5>
+                        <p>Site para Conscientização e Prevenção de Abusos Sexuais na Infância</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" height="500px" src="Imagens/ProjetoSustentabilidade.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block" style="color:lightblue;">
+                        <h5>Projeto Sustentabilidade</h5>
+                        <p>Aplicativo para Medição e Orientação para Hábitos Sustentáveis</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" height="500px" src="Imagens/projetoCalc.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block" style="color:lightblue;">
+                        <h5>Projeto Calculadora</h5>
+                        <p>Uma calculadora funcional programada com HTML, CSS e JavaScript</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" height="500px" src="Imagens/projetoPraia.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block" style="color:blue;">
+                        <h5>Projeto Praias</h5>
+                        <p>Site em HTML e CSS com informações sobre diversas praias do Brasil</p>
+                    </div>
+                </div>
+            </div>
+            <!--Botão Anterior (prev)-->
+            <button class="carousel-control-prev" type="button" data-target="#carrossel-Slides" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </button>
+            <!--Botão Próximo-->
+            <button class="carousel-control-next" type="button" data-target="#carrossel-Slides" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </button>
+        </div>
+  </div>
+</body>
+</html>

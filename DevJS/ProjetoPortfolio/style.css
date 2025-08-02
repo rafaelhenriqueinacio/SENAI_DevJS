@@ -1,0 +1,116 @@
+
+body{
+    background-color: #6EB3BA;
+}
+
+.menu-hover{    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    background-color: #67787A;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+.menu-hover a{
+    font-family: 'Times New Roman';
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 20px;
+    transition: color 0.5s ease;
+}
+
+.menu-hover a::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background-color: rgb(241, 241, 241);
+    transition: width 0.5s ease;
+    height: 2px; 
+}
+
+.menu-hover a:hover::after{
+    width: 100%;
+}
+
+.paginicial {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: black;
+    margin-top: 120px; 
+    max-width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagcontatos {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: black;
+    margin-top: 120px; 
+    max-width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagsobremim {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: black;
+    margin-top: 120px; 
+    max-width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listaHabilidades{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    margin-left: 40px;
+    list-style-type: disc;
+    text-align: left;
+}
+
+.pagprojetos{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: black;
+    margin-top: 120px; 
+    max-width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carrossel-Slides{
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+    background-size: 60% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; 
+}
+
+.carousel-caption {
+    bottom: 10px; 
+}
