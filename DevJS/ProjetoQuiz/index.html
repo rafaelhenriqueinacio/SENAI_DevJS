@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Quiz: HTML e CSS</h1>
+    <p>1.Qual tag usamos para inserir uma imagem em HTML?</p>
+    <div id="pergunta1">
+        <button id="a1" onclick="vperg1(this,'a1')">     a) &lt;div&gt;      </button>
+        <button id="b1" onclick="vperg1(this,'b1')">     b) &lt;link&gt;      </button>
+        <button id="c1" onclick="vperg1(this,'c1')">     c) &lt;img&gt;      </button>
+        <button id="d1" onclick="vperg1(this,'d1')">     d) &lt;image&gt;      </button>
+        <p id="resp1"></p>
+    </div>
+    <br><br>
+    <p>2.Qual propriedade do CSS altera a cor do texto?</p>
+    <div id="pergunta2">
+        <button id="a2" onclick="vperg2(this,'a2')">     a) &lt;background&gt;      </button>
+        <button id="b2" onclick="vperg2(this,'b2')">     b) &lt;color&gt;      </button>
+        <button id="c2" onclick="vperg2(this,'c2')">     c) &lt;font&gt;      </button>
+        <button id="d2" onclick="vperg2(this,'d2')">     d) &lt;text-color&gt;      </button>
+        <p id="resp2"></p>
+    </div>
+    <br><br>
+    <p>3.Qual o caracter que devemos colocar na frente de um ID no CSS?</p>
+    <div id="pergunta3">
+        <button id="a3" onclick="vperg3(this,'a3')">     a) #      </button>
+        <button id="b3" onclick="vperg3(this,'b3')">     b) .      </button>
+        <button id="c3" onclick="vperg3(this,'c3')">     c) *      </button>
+        <button id="d3" onclick="vperg3(this,'d3')">     d) %      </button>
+        <p id="resp3"></p>
+        <br><br>
+        <button class="limpar" onclick="reiniciar()">Reset</button>
+    </div>
+</body>
+</html>

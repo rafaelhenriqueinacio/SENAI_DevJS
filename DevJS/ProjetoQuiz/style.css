@@ -1,0 +1,31 @@
+body{
+    font-family: 'Courier New';
+    background-image: linear-gradient(90deg,rgba(48, 178, 230, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(83, 237, 170, 1) 100%);
+    margin: 20px;
+    padding: 20px;
+    color: aquamarine;
+}
+
+h1{
+    text-align: center;
+}
+
+#pergunta1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+button{
+    background-color: rgb(0, 139, 139);
+    height: 50px;
+    border-radius: 15px;
+}
+
+#pergunta2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
